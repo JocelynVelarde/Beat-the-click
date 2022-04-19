@@ -38,11 +38,11 @@ li {
 
 .btn {
     position: absolute;
-    top: 20px;
-    left: 250px;
+    top: 300px;
+    left: 620px;
     height: 50px;
-    width: 50px;
-    border-radius: 50%;
+    width: 90px;
+    border-radius: 10%;
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);

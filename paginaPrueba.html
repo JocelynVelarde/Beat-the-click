@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Una pagina web</title>
+    <title>Beat the click</title>
     <link rel="stylesheet" href="paginacss.css">
 </head>
 
@@ -13,7 +13,7 @@
 
     <h1>Task List</h1>
     <!the id attribute is used to style only one element of the class>
-    <p id="msg">Current tasks:</p>
+    <p id="msg">Beat the click</p>
     <ul>
         <!the class attribute is used to style all elements of the class>
         <li class="list">cosa 1</li>
@@ -22,7 +22,11 @@
     </ul>
     <div>
         <button class="btn">Dark</button>
+        <button type="button" onClick="onClick()">Click me</button>
+        <p>Clicks: <a id="clicks">0</a></p>
     </div>
+
+
     <script src="paginajs.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>

@@ -13,3 +13,10 @@ switcher.addEventListener('click', function() {
     }
     console.log('current class name: ' + className);
 });
+
+var clicks = 0;
+
+function onClick() {
+    clicks += 1;
+    document.getElementById("clicks").innerHTML = clicks;
+};
