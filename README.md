@@ -1,2 +1,3 @@
-# Web-Dev
-Dedicated to practice Web Development
+# Beat-the-click
+A mini game oriented to web development
+
